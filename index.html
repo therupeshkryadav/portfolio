@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Profile</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Video Carousel -->
+        <div class="video-carousel">
+            <div class="video-slider">
+                <div class="video-slide">
+                    <video autoplay muted loop>
+                        <source src="videos/video-back.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-slide">
+                    <video autoplay muted loop>
+                        <source src="videos/video-back2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-slide">
+                    <video autoplay muted loop>
+                        <source src="videos/video-back3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <button class="prev-btn">❮</button>
+            <button class="next-btn">❯</button>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Photographer Image -->
+        <div class="photographer-image">
+            <img src="images/prashant_profil.png" alt="Photographer">
+        </div>
+
+        <!-- Floating Professional Details -->
+        <div class="details">
+            <h1>Prashant Mishra</h1>
+            <div class="tagline">Capturing Moments, Creating Memories</div>
+            <div class="professional-details">
+                <p>Professional Photographer</p>
+                <p>Specializing in Wedding & Event Photography</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate photographer with years of experience in capturing life's most beautiful moments. Specializing in wedding and event photography, I focus on creating timeless memories that you can cherish forever. My style blends creativity with technical precision to deliver stunning photographs that tell your unique story.
+        </p>
+    </section>
+
+    
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <h2>My Work</h2>
+        <p>Here are some of my favorite shots that showcase my work in weddings, events, and more.</p>
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="images/Product-shoot.jpeg" alt="Work 1">
+                <img src="images/Product-shoot.jpeg" alt="Work 2">
+                <img src="images/Product-shoot.jpeg" alt="Work 3">
+                <img src="images/Product-shoot.jpeg" alt="Work 1">
+                <img src="images/Product-shoot.jpeg" alt="Work 2">
+                <img src="images/Product-shoot.jpeg" alt="Work 3">
+                <img src="images/Product-shoot.jpeg" alt="Work 1">
+                <img src="images/Product-shoot.jpeg" alt="Work 2">
+                <img src="images/Product-shoot.jpeg" alt="Work 4">
+            </div>
+        </div>
+       
+        
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you want to book a session or inquire about my services, feel free to reach out.</p>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
